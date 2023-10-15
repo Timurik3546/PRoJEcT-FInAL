@@ -1,0 +1,109 @@
+#menu1{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+ 
+  
+  
+}
+
+#menu1 ul{
+  position:relative;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  border: solid 3px red;
+  width:100px ;
+  }
+
+#menu1 > ul::after{
+  display: block;
+  width: 100%;
+  height: 0px;
+  clear: both;
+  content: " ";
+}
+
+#menu1 ul li{
+  position: relative;
+  display: block;
+      float: left;
+  width: auto;
+  height: auto;
+}
+
+#menu1 ul li a{
+  display: block;
+  padding: 9px 25px 0px 25px;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 36px;
+  box-sizing: border-box;
+  color: black;
+}
+
+#menu1 ul li ul{
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  display: none;
+  width: 200px;
+  background: #58FFDB;
+}
+
+#menu1 ul li:hover ul{
+  display: block;
+}
+
+#menu1 ul li ul li{
+  float: none;
+  width: 100%;
+}
+#menu1 ul li ul li a {
+  display: block;
+  text-transform: none;
+  height: auto;
+  padding: 7px 25px;
+  width: 100%;
+  box-sizing: border-box;
+     border-top: 1px solid #ffffff;
+  color: black;
+}
+
+#menu1 ul li ul li:first-colid a{
+  border-top: 0px;
+}
+#header {
+  background-color:#95FA8C 
+
+;
+  height: 500px;
+  border: 4px groove orange;
+}
+#sus {
+  height:245px ;      
+    width:400px ;                                 
+}
+#spider {
+  height:245px ;      
+    width:400px ;
+  float:right;
+}
+#ataka {
+  height:245px ;      
+    width:289px ;
+  float:right;
+}
+body {
+background-image:url("https://img.freepik.com/free-photo/orange-background_23-2147674307.jpg?size=626&ext=jpg&ga=GA1.1.960598691.1697155200&semt=ais");
+  background-size: cover;
+ background-attachment: fixed;
+
